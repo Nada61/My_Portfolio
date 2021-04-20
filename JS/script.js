@@ -1,6 +1,6 @@
 $(document).ready(function(){
     /*Ady ll button class 3shan keda hy3ml 3la ay button*/
-    $("button").click(function(){
+    $(" .softbtn").click(function(){
         $("body").css("overflow" , "hidden");
         /*var id =$(this).attr('custom');*/
         $('.bk-soft').fadeIn();
@@ -10,6 +10,21 @@ $(document).ready(function(){
         
     });
     $(".bk-soft").click(function(){
+        $("body").css("overflow" , "auto");
+        $(this).fadeOut();
+    });
+    
+    /**********************web**************************/
+    /*class of button of web certificate*/
+      $(".web").click(function(){
+        $("body").css("overflow" , "hidden");
+        $('.bk-web').fadeIn();
+    });
+    $(".bk-web embed ").click(function(event){
+        event.stopPropagation();
+        
+    });
+    $(".bk-web").click(function(){
         $("body").css("overflow" , "auto");
         $(this).fadeOut();
     });

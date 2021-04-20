@@ -66,11 +66,26 @@ h2{
     display: none;
     z-index: 2;
 }
+.bk-web{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    top: 0;
+    display: none;
+    z-index: 2;
+}
 .soft{
     border-radius: 15px;
     margin: 2% auto;
     display: block;
     width: 70%;
+}
+.webe{
+    border-radius: 15px;
+    margin:  auto;
+    display: block;
+    width: 80%;
 }
 .thirdleft{
     background-color: bisque;
