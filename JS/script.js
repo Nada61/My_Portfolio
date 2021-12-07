@@ -13,6 +13,22 @@ $(document).ready(function(){
         $("body").css("overflow" , "auto");
         $(this).fadeOut();
     });
+
+    /**angular** */
+    /*Ady ll button class 3shan keda hy3ml 3la ay button*/
+    $(" .angbtn").click(function(){
+        $("body").css("overflow" , "hidden");
+        /*var id =$(this).attr('custom');*/
+        $('.bk-angular').fadeIn();
+    });
+    $(".bk-angular img").click(function(event){
+        event.stopPropagation();
+        
+    });
+    $(".bk-angular").click(function(){
+        $("body").css("overflow" , "auto");
+        $(this).fadeOut();
+    });
     
     /**********************web**************************/
     /*class of button of web certificate*/
@@ -45,4 +61,23 @@ $(document).ready(function(){
             alert("Please Enter Data correctly");
         }
     });
+
+
+
+    /********************* Node ************************/
+    /*class of button of web certificate*/
+    $(".node").click(function(){
+        $("body").css("overflow" , "hidden");
+        $('.bk-node').fadeIn();
+    });
+    $(".bk-node embed ").click(function(event){
+        event.stopPropagation();
+        
+    });
+    $(".bk-node").click(function(){
+        $("body").css("overflow" , "auto");
+        $(this).fadeOut();
+    });
+    
+    
 })
